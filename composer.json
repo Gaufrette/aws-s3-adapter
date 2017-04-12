@@ -1,0 +1,15 @@
+{
+    "name": "gaufrette/aws-s3-adapter",
+    "description": "Aws adapter for Gaufrette",
+    "type": "metapackage",
+    "require": {
+        "knplabs/gaufrette": "0.*@dev",
+        "aws/aws-sdk-php": "~2||~3"
+    },
+    "authors": [
+        {
+            "name": "KnpLabs",
+            "email": "hello@knplabs.com"
+        }
+    ]
+}
