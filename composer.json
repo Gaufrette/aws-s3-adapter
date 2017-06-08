@@ -3,8 +3,9 @@
     "description": "Aws adapter for Gaufrette",
     "type": "metapackage",
     "require": {
-        "knplabs/gaufrette": "0.*@dev",
-        "aws/aws-sdk-php": "~2||~3"
+        "knplabs/gaufrette": "~0.4@dev",
+        "aws/aws-sdk-php": "~2||~3",
+        "ext-fileinfo": "*"
     },
     "authors": [
         {
